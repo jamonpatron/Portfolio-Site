@@ -124,7 +124,6 @@ nav a {
 /* CONTACT */
 .contact .socials {
     margin-top: 15px;
-    display: flex;
     gap: 20px;
     height: 25vh;
     background: linear-gradient(to top, #8255ff, #000);
