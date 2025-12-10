@@ -11,7 +11,10 @@ body {
     color: white;
     line-height: 1.6;
 }
-
+h1 {
+    color:#8255ff;
+    font-size: 3rem;
+}
 /* NAV */
 nav {
     display: flex;
@@ -23,12 +26,14 @@ nav {
 }
 
 nav ul {
+    font-size: 1.5rem;
+    padding: 25px 0px;
     display: flex;
     gap: 20px;
 }
 
 nav a {
-    color: white;
+    color:#8255ff;
     text-decoration: none;
     font-weight: 600;
 }
@@ -45,23 +50,23 @@ nav a {
 }
 
 .hero h2 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 10px;
 }
 
 .btn {
-    margin-top: 20px;
     padding: 10px 20px;
-    border: 2px solid #8255ff;
-    text-decoration: none;
-    color: #8255ff;
+    background:#8255ff;
+    color: #ffffff;
+    border: 2px solid #ffffff;
     transition: 0.2s;
-    
+    text-decoration: none;
 }
 
 .btn:hover {
-    background: #8255ff;
-    color: black;
+    background: white;
+    border: 2px solid #8255ff;
+    color: #8255ff;
 }
 
 /* SECTIONS */
@@ -87,6 +92,7 @@ nav a {
 }
 
 .music-card {
+    text-align: center;
     background: #0a0a0a;
     padding: 20px;
     border-radius: 10px;
@@ -107,7 +113,7 @@ nav a {
 
 .game-card {
     background: #0a0a0a;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -116,27 +122,29 @@ nav a {
 }
 
 .game-card img {
+    margin-top: 10px;
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 /* CONTACT */
 .contact .socials {
     margin-top: 15px;
-    gap: 20px;
+    gap: 5vh;
     height: 25vh;
     background: linear-gradient(to top, #8255ff, #000);
     display: flex;
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content: center;
-    font-size: 2.5rem;
-    padding: 0px;
+    font-size: 3rem;
 }
 
 .socials a {
     color: #ffffff;
+    
+    
 }
 .fa{
     padding: 20px;
