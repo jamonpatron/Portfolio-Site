@@ -14,6 +14,7 @@ body {
 h1 {
     color:#8255ff;
     font-size: 3rem;
+    text-align: center;
 }
 /* NAV */
 nav {
@@ -26,7 +27,7 @@ nav {
 }
 
 nav ul {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 25px 0px;
     display: flex;
     gap: 20px;
@@ -36,6 +37,9 @@ nav a {
     color:#8255ff;
     text-decoration: none;
     font-weight: 600;
+}
+nav a:hover{
+    color: white;
 }
 
 /* HERO */
@@ -50,7 +54,7 @@ nav a {
 }
 
 .hero h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 10px;
 }
 
@@ -143,8 +147,7 @@ nav a {
 
 .socials a {
     color: #ffffff;
-    
-    
+    margin-right: 25px;
 }
 .fa{
     padding: 20px;
